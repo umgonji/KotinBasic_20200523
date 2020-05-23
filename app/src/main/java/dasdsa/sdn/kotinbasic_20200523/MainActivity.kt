@@ -13,7 +13,10 @@ class MainActivity : AppCompatActivity() {
 
         okBtn.setOnClickListener {
 
-            Log.d("메인화면", "확인버튼눌림")
+//            로그로 버튼 이벤트 확인
+//            Log.d("메인화면", "확인버튼눌림")
+
+            resultTxt.text = "버튼이 눌림"
 
         }
 
